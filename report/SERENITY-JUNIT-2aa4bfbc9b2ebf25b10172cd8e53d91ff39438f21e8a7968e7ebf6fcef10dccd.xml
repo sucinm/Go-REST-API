@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Get users" skipped="0" tests="8" time="5.27" timestamp="2023-03-18 01:01:06"><testcase name="Get user without parameter"/><testcase name="Get user with parameter gender"/><testcase name="Get user with parameter name"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;502&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;502&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;502&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+starter.user.StepDef.GeneralStepDef.shouldReturnStatusCode(GeneralStepDef.java:17)
+✽.should return status code 200(file:///Users/suci/IdeaProjects/Go-REST-API/src/test/resources/features/user/get_user.feature:23)
+</system-err></testcase><testcase name="Get user with parameter status"/><testcase name="Get user with parameter email"><failure message="1 expectation failed.&#10;JSON path email doesn't match.&#10;Expected: a collection containing &quot;embranthiri_ms_kamala@johnston.org&quot;&#10;  Actual: &lt;[]&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path email doesn't match.
+Expected: a collection containing "embranthiri_ms_kamala@johnston.org"
+  Actual: &lt;[]&gt;
+</failure><system-err>1 expectation failed.
+JSON path email doesn't match.
+Expected: a collection containing "embranthiri_ms_kamala@johnston.org"
+  Actual: &lt;[]&gt;
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+starter.user.StepDef.GetUserStepDef.validateFirstDataUserEmailShouldBe(GetUserStepDef.java:77)
+✽.validate first data user email should be "embranthiri_ms_kamala@johnston.org"(file:///Users/suci/IdeaProjects/Go-REST-API/src/test/resources/features/user/get_user.feature:46)
+</system-err></testcase><testcase name="Get user with all parameter"/><testcase name="Get user with invalid parameter"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;502&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;502&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;502&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+starter.user.StepDef.GeneralStepDef.shouldReturnStatusCode(GeneralStepDef.java:17)
+✽.should return status code 400(file:///Users/suci/IdeaProjects/Go-REST-API/src/test/resources/features/user/get_user.feature:57)
+</system-err></testcase></testsuite>

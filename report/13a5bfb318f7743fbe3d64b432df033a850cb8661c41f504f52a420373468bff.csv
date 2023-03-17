@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete users","Delete User with valid ID","SUCCESS","2023-03-18T01:00:58.273+07:00[Asia/Jakarta]","0.0","6.88"
+"Delete users","Delete User with invalid ID","FAILURE","2023-03-18T01:01:05.2+07:00[Asia/Jakarta]","0.0","0.59"
+"Delete users","Delete User without ID","SUCCESS","2023-03-18T01:01:05.814+07:00[Asia/Jakarta]","0.0","0.8"
+"Delete users","Delete User without ID and without Token","ERROR","2023-03-18T01:01:06.621+07:00[Asia/Jakarta]","0.0","0.13"

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get users","Get user without parameter","SUCCESS","2023-03-18T01:01:06.771+07:00[Asia/Jakarta]","0.0","1.47"
+"Get users","Get user with parameter gender","SUCCESS","2023-03-18T01:01:08.344+07:00[Asia/Jakarta]","0.0","0.76"
+"Get users","Get user with parameter status","SUCCESS","2023-03-18T01:01:09.704+07:00[Asia/Jakarta]","0.0","1.22"
+"Get users","Get user with all parameter","SUCCESS","2023-03-18T01:01:11.393+07:00[Asia/Jakarta]","0.0","0.37"

@@ -16,5 +16,5 @@ Implementation:
 3. Running the project using command `mvn clean verify`
 
 ## Result
-Result of web automation testing [here](https://sucinm.github.io/Go-REST-API/report/index.html).
+Result of api automation testing [here](https://sucinm.github.io/Go-REST-API/report/index.html).
 

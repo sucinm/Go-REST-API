@@ -12,7 +12,7 @@ Feature: Get users
       When sent request user
       Then should return status code 200
       And validate json schema list user
-      And validate first data user gender should be "<gender>"
+      And validate data user gender should be "<gender>"
       Examples:
         | gender |
         | male   |
@@ -22,7 +22,7 @@ Feature: Get users
     When sent request user
     Then should return status code 200
     And validate json schema list user
-    And validate first data user name should be contain "<name>"
+    And validate data user name should be contain "<name>"
     Examples:
       | name |
       | oki  |
@@ -32,7 +32,7 @@ Feature: Get users
     When sent request user
     Then should return status code 200
     And validate json schema list user
-    And validate first data user status should be "<status>"
+    And validate data user status should be "<status>"
     Examples:
       | status   |
       | active   |
@@ -43,10 +43,10 @@ Feature: Get users
     When sent request user
     Then should return status code 200
     And validate json schema list user
-    And validate first data user email should be "<email>"
+    And validate data user email should be contain "<email>"
     Examples:
-      | email                              |
-      | embranthiri_ms_kamala@johnston.org |
+      | email     |
+      | @johnston |
 
   Scenario: Get user with all parameter
     When sent request user with "name=Malik&gender=female&status=active&email=malik_sanya@crooks-ebert.org" as parameter

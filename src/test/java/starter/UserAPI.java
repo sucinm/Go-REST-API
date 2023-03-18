@@ -62,13 +62,13 @@ public class UserAPI {
         SerenityRest.given()
                 .pathParam("user_id", id)
                 .contentType(ContentType.JSON)
-                .body(json);
+                 .body(json);
     }
 
     @Step("Delete user")
-    public void deleteUsers(String id) {
+    public void deleteUsers(String id, boolean withToken) {
         SerenityRest.given()
-                .header("Authorization", "Bearer " + Constant.TOKEN)
+                .header("Authorization", withToken ? "Bearer " + Constant.TOKEN : "")
                 .pathParam("user_id", id);
     }
 }

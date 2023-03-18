@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Patch users","Update user with valid ID and valid request body","SUCCESS","2023-03-18T11:38:57.508+07:00[Asia/Jakarta]","0.0","1.07"
+"Patch users","Update user with unregistered ID and valid request body","SUCCESS","2023-03-18T11:39:00.201+07:00[Asia/Jakarta]","0.0","0.36"
+"Patch users","Update user without token","SUCCESS","2023-03-18T11:39:01.584+07:00[Asia/Jakarta]","0.0","3.98"
+"Patch users","Update user without ID","SUCCESS","2023-03-18T11:39:05.569+07:00[Asia/Jakarta]","0.0","0.59"

@@ -7,6 +7,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.UserAPI;
+import starter.utils.Constant;
 import starter.utils.Payload;
 
 import java.io.File;
@@ -28,7 +29,7 @@ public class CreateUserStepDef {
 
     @And("validate json schema create user")
     public void validateJsonSchemaCreateUser() {
-        File jsonSchema = new File(starter.utils.Constant.JSON_SCHEMA + "/ResponseCreateUserSchemaValid.json");
+        File jsonSchema = new File(Constant.JSON_SCHEMA + "/ResponseCreateUserSchemaValid.json");
         SerenityRest.then()
                 .assertThat()
                 .body(JsonSchemaValidator.matchesJsonSchema(jsonSchema));
@@ -36,7 +37,7 @@ public class CreateUserStepDef {
 
     @Given("create user with invalid request body")
     public void createUserWithInvalidRequestBody() {
-        File json = new File(starter.utils.Constant.JSON_SCHEMA + "/ResponseCreateUserSchemaValid.json");
+        File json = new File(Constant.JSON_SCHEMA + "/ResponseCreateUserSchemaValid.json");
         userAPI.postUsers(json);
     }
 
@@ -47,7 +48,7 @@ public class CreateUserStepDef {
 
     @Given("create user without name on request body")
     public void createUserWithoutNameOnRequestBody() {
-        File json = new File(starter.utils.Constant.JSON_SCHEMA + "/InvalidRequestCreateUserWithoutName.json");
+        File json = new File(Constant.JSON_REQUEST + "/InvalidRequestCreateUserWithoutName.json");
         userAPI.postUsers(json);
     }
 

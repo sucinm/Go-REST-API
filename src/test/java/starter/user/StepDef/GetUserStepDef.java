@@ -9,7 +9,8 @@ import net.thucydides.core.annotations.Steps;
 import starter.UserAPI;
 import java.io.File;
 
-import static org.hamcrest.CoreMatchers.hasItem;
+import static org.hamcrest.Matchers.*;
+
 
 public class GetUserStepDef {
     @Steps
@@ -38,10 +39,11 @@ public class GetUserStepDef {
         userAPI.getUsers("", "", gender, "");
     }
 
-    @And("validate first data user gender should be {string}")
+    @And("validate data user gender should be {string}")
     public void validateFirstDataUserGenderShouldBeGender(String parameter) {
         SerenityRest.then()
-                .body("gender", hasItem(parameter));
+                .assertThat()
+                .body("gender", everyItem(hasToString(parameter)));
     }
 
     @Given("the user with name {string}")
@@ -49,10 +51,11 @@ public class GetUserStepDef {
         userAPI.getUsers(name, "", "", "");
     }
 
-    @And("validate first data user name should be contain {string}")
+    @And("validate data user name should be contain {string}")
     public void validateFirstDataUserNameShouldBeContain(String name) {
         SerenityRest.then()
-                .body("name", hasItem(name));
+                .assertThat()
+                .body("name", everyItem(containsStringIgnoringCase(name)));
     }
 
     @Given("the user with status {string}")
@@ -60,10 +63,11 @@ public class GetUserStepDef {
         userAPI.getUsers("", "", "", status);
     }
 
-    @And("validate first data user status should be {string}")
+    @And("validate data user status should be {string}")
     public void validateFirstDataUserStatusShouldBe(String status) {
         SerenityRest.then()
-                .body("status", hasItem(status));
+                .assertThat()
+                .body("status", everyItem(hasToString(status)));
     }
 
     @Given("the user with email {string}")
@@ -71,10 +75,11 @@ public class GetUserStepDef {
         userAPI.getUsers("", email, "", "");
     }
 
-    @And("validate first data user email should be {string}")
+    @And("validate data user email should be contain {string}")
     public void validateFirstDataUserEmailShouldBe(String email) {
         SerenityRest.then()
-                .body("email", hasItem(email));
+                .assertThat()
+                .body("email", everyItem(containsStringIgnoringCase(email)));
     }
 
     @When("sent request user with {string} as parameter")

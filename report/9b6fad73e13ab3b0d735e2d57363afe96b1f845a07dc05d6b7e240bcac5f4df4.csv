@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Post users","Create user with valid request body","FAILURE","2023-03-18T01:01:14.211+07:00[Asia/Jakarta]","0.0","0.36"
-"Post users","Create user without request body","FAILURE","2023-03-18T01:01:14.918+07:00[Asia/Jakarta]","0.0","0.3"
-"Post users","Create user without token","FAILURE","2023-03-18T01:01:15.289+07:00[Asia/Jakarta]","0.0","0.27"
+"Post users","Create user with invalid request body","FAILURE","2023-03-18T11:39:06.96+07:00[Asia/Jakarta]","0.0","0.47"
+"Post users","Create user without request body","FAILURE","2023-03-18T11:39:07.451+07:00[Asia/Jakarta]","0.0","0.44"
+"Post users","Create user without name on request body","FAILURE","2023-03-18T11:39:07.899+07:00[Asia/Jakarta]","0.0","0.4"

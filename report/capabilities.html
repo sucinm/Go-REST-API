@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"User","type":"capability","href":"703409fcc4e8f5772c43ae79d9a1db0f8d933d58e65d083f33fb90057222039f.html","nodes":[{"text":"Delete users","type":"feature","href":"5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 scenarios\u003c/span\u003e"]},{"text":"Get users","type":"feature","href":"462c4c156a32af920a46b4044fc88634df964b36d70e165b3078c94f091040d5.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e7 scenarios\u003c/span\u003e"]},{"text":"Patch users","type":"feature","href":"1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e6 scenarios\u003c/span\u003e"]},{"text":"Post users","type":"feature","href":"09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e6 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 features\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"User","type":"capability","href":"703409fcc4e8f5772c43ae79d9a1db0f8d933d58e65d083f33fb90057222039f.html","nodes":[{"text":"Delete users","type":"feature","href":"5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e8 scenarios\u003c/span\u003e"]},{"text":"Get users","type":"feature","href":"462c4c156a32af920a46b4044fc88634df964b36d70e165b3078c94f091040d5.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e7 scenarios\u003c/span\u003e"]},{"text":"Patch users","type":"feature","href":"1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e7 scenarios\u003c/span\u003e"]},{"text":"Post users","type":"feature","href":"09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e6 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 features\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -218,7 +218,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 01:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 01:01</span>
     <br style="clear:left"/>
 </div>
 
@@ -269,10 +269,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = ['38%', ' ', '4%', ' ', ' ', ' ', ' ', ' ', '38%', ' ', '21%', ' ', ' ', ' '];
+                                                    var labels = ['59%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '41%', ' ', ' ', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 9}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 9}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 5}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 17}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 12}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -315,16 +315,15 @@
                                                                     <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                 </td>
-                                                            <td class="automated-stats">9</td>
-                                                            <td class="automated-stats">38%</td>
+                                                            <td class="automated-stats">17</td>
+                                                            <td class="automated-stats">59%</td>
                                                         </tr>
                                                         <tr>
-                                                                <td class="aggregate-result-count">
-                                                                    <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
-                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                <td class="aggregate-result-count"><i
+                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">4%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -352,15 +351,15 @@
                                                                     <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
                                                                                 class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                 </td>
-                                                            <td class="automated-stats">9</td>
-                                                            <td class="automated-stats">38%</td>
+                                                            <td class="automated-stats">12</td>
+                                                            <td class="automated-stats">41%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">5</td>
-                                                            <td class="automated-stats">21%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -371,7 +370,7 @@
                                                         </tr>
                                                         <tr class="summary-stats">
                                                             <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">24</td>
+                                                            <td class="automated-stats">29</td>
                                                             <td class="automated-stats"></td>
                                                         </tr>
                                                         </tbody>
@@ -393,11 +392,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>17s</td>
-                                                            <td>17s</td>
-                                                            <td>12ms</td>
+                                                            <td>29s</td>
+                                                            <td> 10h  38m 3s</td>
+                                                            <td>356ms</td>
                                                             <td>6s</td>
-                                                            <td>744ms</td>
+                                                            <td>1s</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -437,11 +436,11 @@
             <td> 
                 
             </td>
-            <td>24</td>
+            <td>29</td>
             <td>0</td>
             <td>
-                <span class="status_icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
-                <span style="display:none">4</span>
+                <span class="status_icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></span>
+                <span style="display:none">3</span>
             </td>
 
             <td width="165px">
@@ -450,99 +449,99 @@
 <table>
     <tr>
         <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">37.5%</div>
+            <div class="small" style="text-align:right;">58.6%</div>
         </td>
         <td style="min-width:12.5em;">
             <div class="progress">
                 <div class="progress-bar" role="progressbar"
-                     style="width: 37.5%; background-color:#30cb23;"
-                     aria-valuenow="9"
+                     style="width: 58.62069%; background-color:#30cb23;"
+                     aria-valuenow="17"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 4.166667%; background-color:#A2C4EC;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:#A2C4EC;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:darkgrey;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:#EEE098;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 37.5%; background-color:#f8001f;"
-                     aria-valuenow="9"
+                     style="width: 41.37931%; background-color:#f8001f;"
+                     aria-valuenow="12"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 20.833333%; background-color:darkorange;"
-                     aria-valuenow="5"
+                     style="width: 0%; background-color:darkorange;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:fuchsia;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="24"
-                     title="  - Total tests: 24
-  - Passing tests: 9 (37.5%)
-  - Failing tests: 9 (37.5%)
-  - Tests with errors: 5 (20.8%)
+                     aria-valuemax="29"
+                     title="  - Total tests: 29
+  - Passing tests: 17 (58.6%)
+  - Failing tests: 12 (41.4%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (4.2%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
             </div>
@@ -577,21 +576,6 @@
                                                             </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="71c716f1ca5fb901a04c42342e0da66ba078a44960a09225956e2b94718e88a7.html">Delete User with valid ID</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:00:58</td>
-                                                                    <td>6s 882ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
                                                                 <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
@@ -612,29 +596,104 @@
                                                                                 <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
                                                                         </td>
                                                                     <td>
-                                                                            <a href="e34aaf52d6dbebf494e9bbd48261ea88b114e48aca2e8f919323d02c4a510076.html">Delete User without ID</a>
+                                                                            <a href="71c716f1ca5fb901a04c42342e0da66ba078a44960a09225956e2b94718e88a7.html">Delete User with valid ID</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>01:01:05</td>
-                                                                    <td>797ms</td>
+                                                                    <td>11:38:39</td>
+                                                                    <td>6s 203ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
-                                                                <tr class="scenario-result ERROR">
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="9d0283a4f17452de18120abfc08881b4bc3d72a40e68e0608bad0b2d854d513d.html">Delete User with unregistered ID</a>
+                                                                    </td>
+                                                                    <td>4</td>
+                                                                    <td>11:38:46</td>
+                                                                    <td>744ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="da519d9c3622643b07ae003af0fc6e3768ab5d79f359df2ca460fb88602e4c5d.html">Delete User with invalid format ID</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:38:46</td>
+                                                                    <td>617ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="9831357aa24168640ba85434712744e3035142eace524df6633f9f18c80ef310.html">Delete User with name as a path parameter</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:38:47</td>
+                                                                    <td>553ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="42b98e0d6266d839830f84085076fa8a17b1012daf485d3c9608d6698fe09d16.html">Delete User with email as a path parameter</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:38:48</td>
+                                                                    <td>1s 946ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="e34aaf52d6dbebf494e9bbd48261ea88b114e48aca2e8f919323d02c4a510076.html">Delete User without ID</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:38:50</td>
+                                                                    <td>800ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="5c8ecc58d2873f0d97c8208d513b62bad5b6a0f0b9c0ddb436b69732d089d28a.html">Delete users</a>
                                                                         </td>
                                                                     <td>
                                                                             <a href="edae74e2284c12d15ce5a30d462eb584c305563dfa4a8697d617ecab1007334c.html">Delete User without ID and without Token</a>
                                                                     </td>
-                                                                    <td>3</td>
-                                                                    <td>01:01:06</td>
-                                                                    <td>133ms</td>
+                                                                    <td>5</td>
+                                                                    <td>11:38:50</td>
+                                                                    <td>487ms</td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
@@ -645,8 +704,8 @@
                                                                             <a href="2aa4bfbc9b2ebf25b10172cd8e53d91ff39438f21e8a7968e7ebf6fcef10dccd.html">Get user without parameter</a>
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>01:01:06</td>
-                                                                    <td>1s 466ms</td>
+                                                                    <td>11:38:51</td>
+                                                                    <td>865ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -661,14 +720,14 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>01:01:08</td>
-                                                                    <td>759ms</td>
+                                                                    <td>11:38:52</td>
+                                                                    <td>700ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
-                                                                <tr class="scenario-result FAILURE">
+                                                                <tr class="scenario-result SUCCESS">
                                                                         <td>
                                                                                 <a href="462c4c156a32af920a46b4044fc88634df964b36d70e165b3078c94f091040d5.html">Get users</a>
                                                                         </td>
@@ -677,11 +736,11 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>01:01:09</td>
-                                                                    <td>577ms</td>
+                                                                    <td>11:38:53</td>
+                                                                    <td>472ms</td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
@@ -693,14 +752,14 @@
                                                                             (2 examples)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>01:01:09</td>
-                                                                    <td>1s 223ms</td>
+                                                                    <td>11:38:53</td>
+                                                                    <td>2s 484ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
-                                                                <tr class="scenario-result FAILURE">
+                                                                <tr class="scenario-result SUCCESS">
                                                                         <td>
                                                                                 <a href="462c4c156a32af920a46b4044fc88634df964b36d70e165b3078c94f091040d5.html">Get users</a>
                                                                         </td>
@@ -709,11 +768,11 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>01:01:10</td>
-                                                                    <td>443ms</td>
+                                                                    <td>11:38:56</td>
+                                                                    <td>534ms</td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
@@ -724,8 +783,8 @@
                                                                             <a href="0fd816f170f80032dc7cd3979bf464e430bfeabd463360e1d69098adce84be03.html">Get user with all parameter</a>
                                                                     </td>
                                                                     <td>2</td>
-                                                                    <td>01:01:11</td>
-                                                                    <td>369ms</td>
+                                                                    <td>11:38:56</td>
+                                                                    <td>487ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -739,14 +798,14 @@
                                                                             <a href="8381b544e17ce1fa1f1d176b422fbfd97faaf7a914a3f360319e366281a02368.html">Get user with invalid parameter</a>
                                                                     </td>
                                                                     <td>2</td>
-                                                                    <td>01:01:11</td>
-                                                                    <td>437ms</td>
+                                                                    <td>11:38:57</td>
+                                                                    <td>399ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
                                                                     </td>
                                                                 </tr>
-                                                                <tr class="scenario-result PENDING">
+                                                                <tr class="scenario-result SUCCESS">
                                                                         <td>
                                                                                 <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
                                                                         </td>
@@ -754,11 +813,11 @@
                                                                             <a href="78c73e004832e3ec3808025b6b5022f9623898daf4c934de8802df2627a37af1.html">Update user with valid ID and valid request body</a>
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>01:01:12</td>
-                                                                    <td>012ms</td>
+                                                                    <td>11:38:57</td>
+                                                                    <td>1s 073ms</td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
-                                                                                style="display:none">PENDING</span>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result FAILURE">
@@ -769,83 +828,8 @@
                                                                             <a href="3bb58e504dc3e07e1b0fef589c3e14f1a9bacf0cee14898e604de8a563964049.html">Update user with valid ID and invalid request body</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>01:01:12</td>
-                                                                    <td>809ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                        <td>
-                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="b9a4a34051235f4407eacc0cf5e2f7a94f71be803ec058aacec7038c50a41e87.html">Update user with invalid ID and valid request body</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:01:13</td>
-                                                                    <td>080ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                        <td>
-                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="bfc072e69c993dcdb06a83f3b654800e10ba389fc404e5b2a6e9ffdfdd4705ed.html">Update user with invalid ID and invalid request body</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>01:01:13</td>
-                                                                    <td>062ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="90451a9f1e19ce60cd6d08c31dbb59a58c859f8784ebc8fb01800157e025ce50.html">Update user without token</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:01:13</td>
-                                                                    <td>822ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                        <td>
-                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="147d5291f1e776355944042442a4bc0f5b05125f20bfd32ea02ff2aa2c041338.html">Update user without ID</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:01:14</td>
-                                                                    <td>083ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="85e857dde36c49e93a30c1f9505ea0879e82a030156f2b57f4662ae242ece1a5.html">Create user with valid request body</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>01:01:14</td>
-                                                                    <td>360ms</td>
+                                                                    <td>11:38:58</td>
+                                                                    <td>1s 585ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
@@ -853,14 +837,89 @@
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
                                                                         <td>
+                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="2555584d4fc7073ef9c993785f5caab667933d34c42c348eaa1bdc21e4bf0e6c.html">Update user with unregistered ID and valid request body</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:39:00</td>
+                                                                    <td>359ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="b9a4a34051235f4407eacc0cf5e2f7a94f71be803ec058aacec7038c50a41e87.html">Update user with invalid ID and valid request body</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:39:00</td>
+                                                                    <td>542ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="bfc072e69c993dcdb06a83f3b654800e10ba389fc404e5b2a6e9ffdfdd4705ed.html">Update user with invalid ID and invalid request body</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:39:01</td>
+                                                                    <td>444ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="90451a9f1e19ce60cd6d08c31dbb59a58c859f8784ebc8fb01800157e025ce50.html">Update user without token</a>
+                                                                    </td>
+                                                                    <td>5</td>
+                                                                    <td>11:39:01</td>
+                                                                    <td>3s 980ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="1c04b9270c0826b07f25ea245ecee6c5acc75181910de44e161bb7a2ffb5c59e.html">Patch users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="147d5291f1e776355944042442a4bc0f5b05125f20bfd32ea02ff2aa2c041338.html">Update user without ID</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>11:39:05</td>
+                                                                    <td>591ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
                                                                                 <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
                                                                         </td>
                                                                     <td>
-                                                                            <a href="fccf0e22b5e64997ed267745a09de836c74d6d8c353a6ee120ec6204d1115e91.html">Create user with invalid request body</a>
+                                                                            <a href="85e857dde36c49e93a30c1f9505ea0879e82a030156f2b57f4662ae242ece1a5.html">Create user with valid request body</a>
                                                                     </td>
-                                                                    <td>3</td>
-                                                                    <td>01:01:14</td>
-                                                                    <td>338ms</td>
+                                                                    <td>4</td>
+                                                                    <td>11:39:06</td>
+                                                                    <td>778ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -871,29 +930,14 @@
                                                                                 <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
                                                                         </td>
                                                                     <td>
-                                                                            <a href="5bf1299fa8d6fac4123bcb70acc54da88c34995ff0c7d5d816931baf6630d05a.html">Create user without request body</a>
+                                                                            <a href="fccf0e22b5e64997ed267745a09de836c74d6d8c353a6ee120ec6204d1115e91.html">Create user with invalid request body</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>01:01:14</td>
-                                                                    <td>304ms</td>
+                                                                    <td>11:39:06</td>
+                                                                    <td>469ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                        <td>
-                                                                                <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="5bc53a97c7e49a9c5371005676ac9fe4744f88c50b04bd0ac35188ebdcf2ec64.html">Create user without name on request body</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>01:01:15</td>
-                                                                    <td>049ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result FAILURE">
@@ -901,11 +945,26 @@
                                                                                 <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
                                                                         </td>
                                                                     <td>
-                                                                            <a href="e9e6e8b10e07f2a33b161f85781376ad4c13676866ac24b5c46191a71ccebe61.html">Create user without token</a>
+                                                                            <a href="5bf1299fa8d6fac4123bcb70acc54da88c34995ff0c7d5d816931baf6630d05a.html">Create user without request body</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>01:01:15</td>
-                                                                    <td>266ms</td>
+                                                                    <td>11:39:07</td>
+                                                                    <td>436ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
+                                                                        </td>
+                                                                    <td>
+                                                                            <a href="5bc53a97c7e49a9c5371005676ac9fe4744f88c50b04bd0ac35188ebdcf2ec64.html">Create user without name on request body</a>
+                                                                    </td>
+                                                                    <td>4</td>
+                                                                    <td>11:39:07</td>
+                                                                    <td>399ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
@@ -916,11 +975,26 @@
                                                                                 <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
                                                                         </td>
                                                                     <td>
+                                                                            <a href="e9e6e8b10e07f2a33b161f85781376ad4c13676866ac24b5c46191a71ccebe61.html">Create user without token</a>
+                                                                    </td>
+                                                                    <td>5</td>
+                                                                    <td>11:39:08</td>
+                                                                    <td>486ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="09fe674688aea94db200d48252847654335b42660810acdad4fc6a3bbf2c2b99.html">Post users</a>
+                                                                        </td>
+                                                                    <td>
                                                                             <a href="a2a0c83d2e6d8db86491de22dd4b7ad7e8fb745ed621ec439a626501a0e59c22.html">Create user without token and without request body</a>
                                                                     </td>
-                                                                    <td>2</td>
-                                                                    <td>01:01:15</td>
-                                                                    <td>267ms</td>
+                                                                    <td>4</td>
+                                                                    <td>11:39:08</td>
+                                                                    <td>356ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>

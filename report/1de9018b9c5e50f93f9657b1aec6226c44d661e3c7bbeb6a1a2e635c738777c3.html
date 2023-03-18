@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 01:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 11:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     Get user with parameter email
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -212,7 +212,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given the user with email "&lt;email&gt;"<br>When sent request user<br>Then should return status code 200<br>And validate json schema list user<br>And validate first data user email should be "&lt;email&gt;"</div>
+            <div class="scenario">Given the user with email "&lt;email&gt;"<br>When sent request user<br>Then should return status code 200<br>And validate json schema list user<br>And validate data user email should be contain "&lt;email&gt;"</div>
 
         </div>
 
@@ -236,9 +236,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-FAILURE"><a href="#0">1</a></td>
-                                <td class="test-FAILURE"><a
-                                            href="#0">embranthiri_ms_kamala@johnston.org</a>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">@johnston</a>
                                 </td>
                         </tr>
                     </tbody>
@@ -262,13 +262,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -278,7 +278,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                1: Get user with parameter email ({email=embranthiri_ms_kamala@johnston.org})
+                                                1: Get user with parameter email ({email=@johnston})
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -286,8 +286,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">430ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">527ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -308,7 +308,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Given the user with email "embranthiri_ms_kamala@johnston.org"
+                                                Given the user with email "@johnston"
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -317,7 +317,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">010ms</span></td>
+                        <td width="100"><span class="nested-step">007ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -342,7 +342,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">004ms</span></td>
+                        <td width="100"><span class="nested-group-step">002ms</span></td>
                     </tr>
 
                                 </table>
@@ -373,7 +373,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">341ms</span></td>
+                        <td width="100"><span class="nested-step">444ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -390,7 +390,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                GET https://gorest.co.in/public/v2/users?name=&amp;email=embranthiri_ms_kamala%40johnston.org&amp;gender=&amp;status=
+                                                GET https://gorest.co.in/public/v2/users?name=&amp;email=%40johnston&amp;gender=&amp;status=
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -406,15 +406,15 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://gorest.co.in/public/v2/users?name=&email=embranthiri_ms_kamala%40johnston.org&gender=&status=</p>
+                                        <p>URL: https://gorest.co.in/public/v2/users?name=&email=%40johnston&gender=&status=</p>
                                         <p>Status code: 200</p>
                                         <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*</pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 17 Mar 2023 18:01:11 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;4f53cda18c2baa0c0354bb5f9a3ecbe5&quot;<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-pagination-limit: 10<br>x-pagination-page: 1<br>x-pagination-pages: 0<br>x-pagination-total: 0<br>x-permitted-cross-domain-policies: none<br>x-request-id: b537abc8-2ed2-47e9-ab4f-6295e1516f69<br>x-runtime: 0.084882<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=9YDnVVDQQOGW6qOD7Wg8MrGpMym%2F%2Bx7MdkS3%2FyYVNmig4s2G%2BLO2dMRYdu3b6lhnZ0D6BiJqNjEfBZzVQNzmMcvj2tGT749P2VM2ESiKiSO1po%2B7D6X5BDHBLlnjPho%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7a9723c4ca726c03-SIN<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Sat, 18 Mar 2023 04:38:56 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;6238be6880dcce2f0fbd1225d84fbca2&quot;<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-links-current: https://gorest.co.in/public/v2/users?page=1<br>x-links-next: https://gorest.co.in/public/v2/users?page=2<br>x-links-previous: <br>x-pagination-limit: 10<br>x-pagination-page: 1<br>x-pagination-pages: 1<br>x-pagination-total: 6<br>x-permitted-cross-domain-policies: none<br>x-request-id: 42d6a03a-69ad-4b67-bc59-cd2f16e89419<br>x-runtime: 0.062634<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=0D10IF1nHO6ra%2FrBCqRQSivQpoH6gdP6MACKo7CfGkMNIzw9VtvYpKNjiaElY8HluxJoRkzr1PcMwh5ajnG9tSnnnQGTBpILjh46FLvuCvrP%2ByG%2FNfMkxDQaJfG0i4I%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7a9ac9fa1a6ba039-SIN<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
-                                        <pre>[<br>    <br>]</pre>
+                                        <pre>[<br>    {<br>        &quot;id&quot;: 3920,<br>        &quot;name&quot;: &quot;Dhananjay Sinha&quot;,<br>        &quot;email&quot;: &quot;dhananjay_sinha@johnston.name&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 2465,<br>        &quot;name&quot;: &quot;Kannen Mukhopadhyay&quot;,<br>        &quot;email&quot;: &quot;kannen_mukhopadhyay@johnston-willms.name&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 2011,<br>        &quot;name&quot;: &quot;Narendra Panicker&quot;,<br>        &quot;email&quot;: &quot;narendra_panicker@johnston.biz&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 683,<br>        &quot;name&quot;: &quot;Chaitan Mahajan&quot;,<br>        &quot;email&quot;: &quot;mahajan_chaitan@johnston.net&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 184,<br>        &quot;name&quot;: &quot;Tanushri Bhattacharya&quot;,<br>        &quot;email&quot;: &quot;tanushri_bhattacharya@johnston.biz&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 178,<br>        &quot;name&quot;: &quot;Ojaswini Prajapat&quot;,<br>        &quot;email&quot;: &quot;prajapat_ojaswini@johnston.co&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    }<br>]</pre>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +451,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">014ms</span></td>
+                        <td width="100"><span class="nested-group-step">008ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -473,76 +473,38 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">019ms</span></td>
+                        <td width="100"><span class="nested-group-step">030ms</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                And validate first data user email should be "embranthiri_ms_kamala@johnston.org"
+                                                And validate data user email should be contain "@johnston"
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">036ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">028ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>JSON path email doesn&#39;t match.<br>Expected: a collection containing &quot;embranthiri_ms_kamala@johnston.org&quot;<br>  Actual: &lt;[]&gt;<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-8">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.user.StepDef.GetUserStepDef.validateFirstDataUserEmailShouldBe(GetUserStepDef.java:77)<br />✽.validate first data user email should be "embranthiri_ms_kamala@johnston.org"(file:///Users/suci/IdeaProjects/Go-REST-API/src/test/resources/features/user/get_user.feature:46)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
 
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.44s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.53s</em></span></td>
                 </tr>
 
             </table>

@@ -17,7 +17,7 @@ public class DeleteUserStepDef {
     public void deleteUserWithValidID() {
         Response response = SerenityRest.given().get(UserAPI.GET_USER);
         JsonPath jsonPathEvaluator = response.jsonPath();
-        userAPI.deleteUsers(jsonPathEvaluator.get("[0].id").toString());
+        userAPI.deleteUsers(jsonPathEvaluator.get("[0].id").toString(), true);
     }
 
     @When("send request delete user")
@@ -27,11 +27,11 @@ public class DeleteUserStepDef {
 
     @Given("delete User with {string} ID")
     public void deleteUserWithID(String id) {
-        userAPI.deleteUsers(id);
+        userAPI.deleteUsers(id, true);
     }
 
     @Given("delete User without ID and without token")
     public void deleteUserWithoutIDAndWithoutToken() {
-        SerenityRest.given();
+        userAPI.deleteUsers("", false);
     }
 }

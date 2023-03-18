@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 01:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2023 11:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     Get user with parameter name
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -212,7 +212,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given the user with name "&lt;name&gt;"<br>When sent request user<br>Then should return status code 200<br>And validate json schema list user<br>And validate first data user name should be contain "&lt;name&gt;"</div>
+            <div class="scenario">Given the user with name "&lt;name&gt;"<br>When sent request user<br>Then should return status code 200<br>And validate json schema list user<br>And validate data user name should be contain "&lt;name&gt;"</div>
 
         </div>
 
@@ -236,8 +236,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-FAILURE"><a href="#0">1</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
                                             href="#0">oki</a>
                                 </td>
                         </tr>
@@ -262,13 +262,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -286,8 +286,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">570ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">466ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -342,7 +342,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">002ms</span></td>
+                        <td width="100"><span class="nested-group-step">004ms</span></td>
                     </tr>
 
                                 </table>
@@ -373,7 +373,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">524ms</span></td>
+                        <td width="100"><span class="nested-step">369ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -407,16 +407,14 @@
                                 <div class="card-body">
                                     <h4>Response</h4>
                                         <p>URL: https://gorest.co.in/public/v2/users?name=oki&email=&gender=&status=</p>
-                                        <p>Status code: 502</p>
+                                        <p>Status code: 200</p>
                                         <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*</pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 17 Mar 2023 18:01:09 GMT<br>Content-Type: text/html; charset=UTF-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Set-Cookie: cf_use_ob=0; path=/; expires=Fri, 17-Mar-23 18:01:39 GMT<br>X-Frame-Options: SAMEORIGIN<br>Referrer-Policy: same-origin<br>Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0<br>Expires: Thu, 01 Jan 1970 00:00:01 GMT<br>CF-RAY: 7a9723b9bc473f5c-SIN<br>Server: cloudflare</pre>
+                                        <pre>Date: Sat, 18 Mar 2023 04:38:53 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;507437de9826770070dccd3550966dcd&quot;<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-links-current: https://gorest.co.in/public/v2/users?page=1<br>x-links-next: https://gorest.co.in/public/v2/users?page=2<br>x-links-previous: <br>x-pagination-limit: 10<br>x-pagination-page: 1<br>x-pagination-pages: 1<br>x-pagination-total: 6<br>x-permitted-cross-domain-policies: none<br>x-request-id: 37e374b0-c39b-42a4-b50f-a130996654ca<br>x-runtime: 0.064665<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=HgfnukqZss7um%2FVGqsBgoMaMoPzKpAEtPgXfYWoNlliR9nu01xmgZJyZ435jQsoWdbZpst%2FhEE0yH8DvyBKtB7LhPUiVCe2sEDc3HZHFqsiCF34PCqd0WL2sd%2B2pzLo%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7a9ac9e78b643fc2-SIN<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
-                                        <pre>&lt;html class=&quot;no-js&quot; lang=&quot;en-US&quot;&gt;<br>  &lt;head&gt;<br>    &lt;title&gt;gorest.co.in | 502: Bad gateway&lt;/title&gt;<br>    &lt;meta charset=&quot;UTF-8&quot;/&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;/&gt;<br>    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;/&gt;<br>    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;/&gt;<br>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;/&gt;<br>    &lt;link id=&quot;cf_styles-css&quot; rel=&quot;stylesheet&quot; href=&quot;/cdn-cgi/styles/main.css&quot;/&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;div id=&quot;cf-wrapper&quot;&gt;<br>      &lt;div class=&quot;p-0&quot; id=&quot;cf-error-details&quot;&gt;<br>        &lt;header class=&quot;mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8&quot;&gt;<br>          &lt;h1 class=&quot;inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2&quot;&gt;<br>            &lt;span class=&quot;inline-block&quot;&gt;Bad gateway&lt;/span&gt;<br>            &lt;span class=&quot;code-label&quot;&gt;Error code 502&lt;/span&gt;<br>          &lt;/h1&gt;<br>          &lt;div&gt;<br><br>               Visit             &lt;a shape=&quot;rect&quot; href=&quot;https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;amp;utm_campaign=gorest.co.in&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;cloudflare.com&lt;/a&gt;<br> for more information.<br>                      &lt;/div&gt;<br>          &lt;div class=&quot;mt-3&quot;&gt;2023-03-17 18:01:09 UTC&lt;/div&gt;<br>        &lt;/header&gt;<br>        &lt;div class=&quot;my-8 bg-gradient-gray&quot;&gt;<br>          &lt;div class=&quot;w-240 lg:w-full mx-auto&quot;&gt;<br>            &lt;div class=&quot;clearfix md:px-8&quot;&gt;<br>              &lt;div class=&quot;relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center&quot; id=&quot;cf-browser-status&quot;&gt;<br>                &lt;div class=&quot;relative mb-10 md:m-0&quot;&gt;<br>                  &lt;span class=&quot;cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat&quot;/&gt;<br>                  &lt;span class=&quot;cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4&quot;/&gt;<br>                &lt;/div&gt;<br>                &lt;span class=&quot;md:block w-full truncate&quot;&gt;You&lt;/span&gt;<br>                &lt;h3 class=&quot;md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3&quot;&gt;<br>    <br>    Browser<br>    <br>  &lt;/h3&gt;<br>                &lt;span class=&quot;leading-1.3 text-2xl text-green-success&quot;&gt;Working&lt;/span&gt;<br>              &lt;/div&gt;<br>              &lt;div class=&quot;relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center&quot; id=&quot;cf-cloudflare-status&quot;&gt;<br>                &lt;div class=&quot;relative mb-10 md:m-0&quot;&gt;<br>                  &lt;a shape=&quot;rect&quot; href=&quot;https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;amp;utm_campaign=gorest.co.in&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;<br>                    &lt;span class=&quot;cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat&quot;/&gt;<br>                    &lt;span class=&quot;cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4&quot;/&gt;<br>                  &lt;/a&gt;<br>                &lt;/div&gt;<br>                &lt;span class=&quot;md:block w-full truncate&quot;&gt;Singapore&lt;/span&gt;<br>                &lt;h3 class=&quot;md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3&quot;&gt;<br>                  &lt;a shape=&quot;rect&quot; href=&quot;https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;amp;utm_campaign=gorest.co.in&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;<br>    Cloudflare<br>    &lt;/a&gt;<br>                &lt;/h3&gt;<br>                &lt;span class=&quot;leading-1.3 text-2xl text-green-success&quot;&gt;Working&lt;/span&gt;<br>              &lt;/div&gt;<br>              &lt;div class=&quot;cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center&quot; id=&quot;cf-host-status&quot;&gt;<br>                &lt;div class=&quot;relative mb-10 md:m-0&quot;&gt;<br>                  &lt;span class=&quot;cf-icon-server block md:hidden h-20 bg-center bg-no-repeat&quot;/&gt;<br>                  &lt;span class=&quot;cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4&quot;/&gt;<br>                &lt;/div&gt;<br>                &lt;span class=&quot;md:block w-full truncate&quot;&gt;gorest.co.in&lt;/span&gt;<br>                &lt;h3 class=&quot;md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3&quot;&gt;<br>    <br>    Host<br>    <br>  &lt;/h3&gt;<br>                &lt;span class=&quot;leading-1.3 text-2xl text-red-error&quot;&gt;Error&lt;/span&gt;<br>              &lt;/div&gt;<br>            &lt;/div&gt;<br>          &lt;/div&gt;<br>        &lt;/div&gt;<br>        &lt;div class=&quot;w-240 lg:w-full mx-auto mb-8 lg:px-8&quot;&gt;<br>          &lt;div class=&quot;clearfix&quot;&gt;<br>            &lt;div class=&quot;w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed&quot;&gt;<br>              &lt;h2 class=&quot;text-3xl font-normal leading-1.3 mb-4&quot;&gt;What happened?&lt;/h2&gt;<br>              &lt;p&gt;The web server reported a bad gateway error.&lt;/p&gt;<br>            &lt;/div&gt;<br>            &lt;div class=&quot;w-1/2 md:w-full float-left leading-relaxed&quot;&gt;<br>              &lt;h2 class=&quot;text-3xl font-normal leading-1.3 mb-4&quot;&gt;What can I do?&lt;/h2&gt;<br>              &lt;p class=&quot;mb-6&quot;&gt;Please try again in a few minutes.&lt;/p&gt;<br>            &lt;/div&gt;<br>          &lt;/div&gt;<br>        &lt;/div&gt;<br>        &lt;div class=&quot;cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300&quot;&gt;<br>          &lt;p class=&quot;text-13&quot;&gt;<br>            &lt;span class=&quot;cf-footer-item sm:block sm:mb-1&quot;&gt;<br>Cloudflare Ray ID:               &lt;strong class=&quot;font-semibold&quot;&gt;7a9723b9bc473f5c&lt;/strong&gt;<br>            &lt;/span&gt;<br>            &lt;span class=&quot;cf-footer-separator sm:hidden&quot;&gt;•&lt;/span&gt;<br>            &lt;span class=&quot;cf-footer-item hidden sm:block sm:mb-1&quot; id=&quot;cf-footer-item-ip&quot;&gt;<br><br>      Your IP:<br>                    &lt;button type=&quot;button&quot; class=&quot;cf-footer-ip-reveal-btn&quot; id=&quot;cf-footer-ip-reveal&quot;&gt;Click to reveal&lt;/button&gt;<br>              &lt;span class=&quot;hidden&quot; id=&quot;cf-footer-ip&quot;&gt;103.163.39.5&lt;/span&gt;<br>              &lt;span class=&quot;cf-footer-separator sm:hidden&quot;&gt;•&lt;/span&gt;<br>            &lt;/span&gt;<br>            &lt;span class=&quot;cf-footer-item sm:block sm:mb-1&quot;&gt;<br>              &lt;span&gt;Performance &amp;amp; security by&lt;/span&gt;<br>              &lt;a shape=&quot;rect&quot; id=&quot;brand_link&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;amp;utm_campaign=gorest.co.in&quot; target=&quot;_blank&quot;&gt;Cloudflare&lt;/a&gt;<br>            &lt;/span&gt;<br>          &lt;/p&gt;<br>          &lt;script&gt;(function(){function d(){var b=a.getElementById(&quot;cf-footer-item-ip&quot;),c=a.getElementById(&quot;cf-footer-ip-reveal&quot;);b&amp;amp;&amp;amp;&quot;classList&quot;in b&amp;amp;&amp;amp;(b.classList.remove(&quot;hidden&quot;),c.addEventListener(&quot;click&quot;,function(){c.classList.add(&quot;hidden&quot;);a.getElementById(&quot;cf-footer-ip&quot;).classList.remove(&quot;hidden&quot;)}))}var a=document;document.addEventListener&amp;amp;&amp;amp;a.addEventListener(&quot;DOMContentLoaded&quot;,d)})();&lt;/script&gt;<br>        &lt;/div&gt;<br>      &lt;/div&gt;<br>    &lt;/div&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
-                                        <h4>Response Cookies</h4>
-                                        <pre>cf_use_ob=0;Path=/;Expires=3/17/23 6:01 PM</pre>
+                                        <pre>[<br>    {<br>        &quot;id&quot;: 3046,<br>        &quot;name&quot;: &quot;Triloki Nath Iyengar&quot;,<br>        &quot;email&quot;: &quot;triloki_iyengar_nath@nolan.co&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 2708,<br>        &quot;name&quot;: &quot;Triloki Nath Nayar&quot;,<br>        &quot;email&quot;: &quot;triloki_nayar_nath@pfeffer.biz&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 2472,<br>        &quot;name&quot;: &quot;Triloki Nath Chaturvedi&quot;,<br>        &quot;email&quot;: &quot;nath_chaturvedi_triloki@cremin-koepp.biz&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 1570,<br>        &quot;name&quot;: &quot;Mrs. Triloki Kakkar&quot;,<br>        &quot;email&quot;: &quot;kakkar_triloki_mrs@wisoky.biz&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 810,<br>        &quot;name&quot;: &quot;Triloki Mehrotra&quot;,<br>        &quot;email&quot;: &quot;triloki_mehrotra@hartmann-quigley.name&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 790,<br>        &quot;name&quot;: &quot;Triloki Nath Naik&quot;,<br>        &quot;email&quot;: &quot;triloki_nath_naik@koelpin.io&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    }<br>]</pre>
                                 </div>
                             </div>
                         </div>
@@ -433,12 +431,12 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -452,53 +450,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">016ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">006ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;502&gt;.<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-6""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-6">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:-1)<br />starter.user.StepDef.GeneralStepDef.shouldReturnStatusCode(GeneralStepDef.java:17)<br />✽.should return status code 200(file:///Users/suci/IdeaProjects/Go-REST-API/src/test/resources/features/user/get_user.feature:23)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -512,39 +472,39 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">044ms</span></td>
                     </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                And validate first data user name should be contain "oki"
+                                                And validate data user name should be contain "oki"
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">003ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">029ms</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.58s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.47s</em></span></td>
                 </tr>
 
             </table>

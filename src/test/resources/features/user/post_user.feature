@@ -10,7 +10,7 @@ Feature: Post users
   Scenario: Create user with invalid request body
     Given create user with invalid request body
     When send request post user
-    Then should return status code 422
+    Then should return status code 400
 
   Scenario: Create user without request body
     Given create user without request body
@@ -27,10 +27,14 @@ Feature: Post users
     Given create user without token
     When send request post user
     Then should return status code 401
+    And response body message should be "Authentication failed"
+    And validate json schema response error
 
   Scenario: Create user without token and without request body
     When send request post user
     Then should return status code 401
+    And response body message should be "Authentication failed"
+    And validate json schema response error
 
 
 

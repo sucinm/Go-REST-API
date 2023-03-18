@@ -1,3 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Delete users","Delete User with invalid ID","FAILURE","2023-03-18T01:01:05.2+07:00[Asia/Jakarta]","0.0","0.59"
-"Delete users","Delete User without ID and without Token","ERROR","2023-03-18T01:01:06.621+07:00[Asia/Jakarta]","0.0","0.13"
+"Delete users","Delete User with invalid format ID","FAILURE","2023-03-18T11:38:46.976+07:00[Asia/Jakarta]","0.0","0.62"
+"Delete users","Delete User with name as a path parameter","FAILURE","2023-03-18T11:38:47.613+07:00[Asia/Jakarta]","0.0","0.55"
+"Delete users","Delete User with email as a path parameter","FAILURE","2023-03-18T11:38:48.188+07:00[Asia/Jakarta]","0.0","1.95"
+"Delete users","Delete User without ID and without Token","FAILURE","2023-03-18T11:38:50.958+07:00[Asia/Jakarta]","0.0","0.49"

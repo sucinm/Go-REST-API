@@ -1,4 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get users","Get user with parameter name","FAILURE","2023-03-18T01:01:09.116+07:00[Asia/Jakarta]","0.0","0.58"
-"Get users","Get user with parameter email","FAILURE","2023-03-18T01:01:10.937+07:00[Asia/Jakarta]","0.0","0.44"
-"Get users","Get user with invalid parameter","FAILURE","2023-03-18T01:01:11.774+07:00[Asia/Jakarta]","0.0","0.44"
+"Get users","Get user with invalid parameter","FAILURE","2023-03-18T11:38:57.1+07:00[Asia/Jakarta]","0.0","0.4"
